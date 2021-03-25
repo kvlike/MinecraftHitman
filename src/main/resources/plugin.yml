@@ -1,0 +1,29 @@
+name: DreamHitman
+version: 1.7
+main: me.kvlike.dreamhitman.DreamHitman
+api-version: 1.16
+authors: [ kvlike ]
+description: Recreation of Dream's plugin from Survivalist vs Hitmen
+commands:
+  hitman:
+    description: Add/remove hitman.
+    usage: /hitman
+  survivalist:
+    description: Add/remove survivalist.
+    usage: /survivalist
+  startgame:
+    description: Starts the game.
+    usage: /startgame
+  stopgame:
+    description: Stops the game.
+    usage: /stopgame
+  hitmanreload:
+    description: Reloads plugin configuration.
+    usage: /hitmanreload
+    aliases: hreload
+  gametime:
+    description: Sets game-time-in-seconds config value.
+    usage: /gametime
+  nether:
+    description: Sets nether-enabled config value.
+    usage: /nether
